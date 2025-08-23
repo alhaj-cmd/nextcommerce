@@ -52,7 +52,7 @@ export default function Home() {
         </div>
       </main>
       <div className="header">
-        <h1>My Next js project for the tree plan</h1>
+        <header/>
       </div>
     </div>
   );
