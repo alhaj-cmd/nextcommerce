@@ -28,7 +28,11 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <nav>
-          Home | About | Contact
+          <ul className="flex pl-10 m-2 bg-info-500">
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
         </nav>
         {children}
 
